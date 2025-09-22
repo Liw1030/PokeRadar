@@ -1,0 +1,19 @@
+/* Estilos de navbar */
+
+#liNavbar, #PokeRadar{
+    color: #fff;
+}
+
+btn.btn-outline-success{
+    background-color: red;
+}
+
+#btn-anterior {
+    background-color: #2B2D42;
+    border: none;
+}
+
+#btn-siguiente{
+    background-color: #EF233C;
+    border: none;
+}

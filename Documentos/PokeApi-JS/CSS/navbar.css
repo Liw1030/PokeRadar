@@ -1,0 +1,49 @@
+:root {
+    --dark-grey: #2B2D42;
+    --light-grey: #8D99AE;
+    --ligth: #EDF2F4;
+    --ligth-red: #EF233C;
+    --dark-red: #D90429;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); 
+}
+
+
+nav.navbar.navbar-expand-lg {
+    background-color: var(--dark-grey);
+}
+
+ul{
+    margin-right: 20px;
+}
+
+a {
+    color: var(--ligth);
+}
+
+a.navbar-brand span {
+    color: var(--light-red);
+}
+
+a.nav-link.active:hover {
+    background-color: #edf2f4a9;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+button.btn.btn-outline-success {
+    border: 1px solid var(--dark-red);
+    color: #fff;
+}
+
+button.btn.btn-outline-success:hover {
+    background-color: var(--ligth-red);
+}
+
+#botonBuscar {
+    background-color: var(--dark-red);
+    color: var(--ligth);
+}
+

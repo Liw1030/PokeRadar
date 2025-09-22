@@ -1,0 +1,18 @@
+.silhouette {
+    /* Nueva magia de la silueta: asegura que el resultado final sea negro */
+    filter: 
+        brightness(0)    /* Poner todo a negro */
+        drop-shadow(0 0 5px rgba(0, 0, 0, 0.9)); /* Añadir una pequeña sombra negra para asegurar el contraste */
+    
+    transition: filter 0.5s ease-in-out;
+    
+    /* Opcional: Centrar la imagen si no está usando un div contenedor */
+    display: block;
+    margin: 0 auto;
+    max-width: 200px; /* Tamaño máximo para la imagen */
+    image-rendering: pixelated; /* Mejor para sprites de Pokémon */
+}
+#pokemon-image{
+    height: 200px;
+    width: 200px;
+}

@@ -1,0 +1,19 @@
+#footer {
+    background-image: url(/img/fondoF.webP);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+ul.info a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.redes-sociales .red-social i {
+    color: white;
+    font-size: 28px;
+    margin-right: 10px;
+}
